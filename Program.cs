@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<KeyboardContext>(options =>
     options
-        .UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=Passwoasdasdasdrd")
+        .UseNpgsql("Host=dan-dun-iskfu-19.postgres.database.azure.com;Database=postgres;Username=Primer;Password=n5X7Jtbr")
         .UseSnakeCaseNamingConvention());
 
 builder.Services.AddScoped<KeyboardServices>();
